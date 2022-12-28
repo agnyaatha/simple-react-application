@@ -1,0 +1,93 @@
+.markdown-previewer-application-wrapper{
+    background-color: #87b5b5;
+}
+
+.markdownPreviewer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.editor-wrapper{
+    background-color: #87b5b5;
+    padding: 2rem 20%;
+    padding-bottom: 0;
+    max-width: 100%;
+    min-height: 30vh;
+}
+
+
+.editor-toolbar, .preview-toolbar{
+    min-height: 1.5rem;
+    background-color: #4aa3a3;
+    border: 2px solid #1d2f2f;
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Russo one", sans-serif;
+    font-size: 1rem;
+    max-width: 98%;
+}
+
+#editor{
+    min-width: 98%;
+    max-width: 98%;
+    border: 2px solid #1d2f2f;
+    border-top: none;
+    background-color: #c0d8d8;
+    height: 100%;
+}
+
+textarea{
+    min-height: 200px;
+}
+
+.preview-wrapper{
+    padding: 0 5%;
+    background-color: #87b5b5;
+    padding-top: 2rem;
+}
+
+#preview{
+    border: 2px solid #1d2f2f;
+    max-width: 98%;
+    min-height: 80vh;
+    padding: 5px;
+    border-top: none;
+    background-color: #c0d8d8;
+    margin-bottom: 5%;
+}
+
+#preview > *{
+    max-width: 100%;
+    padding-left: 5px;
+}
+
+#preview img{
+    max-width: 95%;
+}
+
+
+
+table, td, th{
+    border: 1px solid black;
+}
+
+#preview pre, code {
+    background-color: whitesmoke;
+    padding: 5px;
+    overflow-x: scroll;
+}
+
+#preview blockquote{
+    border-left: 3px solid green;
+    padding-left: 5px;
+    scroll-behavior: auto;
+}
+
+.maximize:hover{
+    color: greenyellow;
+}

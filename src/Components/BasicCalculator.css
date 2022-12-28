@@ -1,0 +1,110 @@
+.basic-calculator-application-wrapper{
+    background-color: rgb(157, 184, 157);
+}
+
+.basic-calculator{
+    width: 40%;
+    max-height: 60%;
+    background-color: red;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.basic-calculator .display-wrapper{
+    background-color: black;
+    padding-right: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: right;
+    /* direction: rtl; */
+    width: 100%;
+    display: block;
+    /* max-width: 60%; */
+}
+
+.basic-calculator .secondary-display{
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* table-layout: fixed; */
+    /* display: block; */
+    /* max-width: 100%; */
+    /* overflow: hidden; */
+    color: yellow;
+    /* min-height: 1rem; */
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+
+.basic-calculator div.secondary-display > span{
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.basic-calculator .primary-display{
+    /* width: 100%; */
+    /* display: flex; */
+    /* table-layout: fixed; */
+    color: aliceblue;
+    font-size: 2rem;
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+
+.basic-calculator .button-wrapper{
+    background-color: red;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    margin-top: 5px;
+    /* max-width: 60%; */
+}
+
+.basic-calculator .buttons{
+    display: inline-block;
+}
+
+.basic-calculator .buttons > button{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    font-family: "Russo One", 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.basic-calculator .buttons >button:active{
+    background-color: black;
+    color: white;
+}
+
+.basic-calculator .grid-col-span-2{
+    grid-column: span 2;
+}
+
+.basic-calculator .grid-row-span-2{
+    grid-row: span 2;
+}
+
+.basic-calculator .number-color{
+    background-color: darkgrey;
+    color: black;
+}
+
+.basic-calculator .operator-color{
+    background-color: rgb(213, 212, 212);
+    color: black;
+}
+
+.basic-calculator .cancel-color{
+    background-color: rgb(152, 38, 38);
+}
+
+.basic-calculator .equal-color{
+    background-color: rgb(0, 78, 113);
+}
