@@ -83,7 +83,7 @@
 
 .pomodore-timer .buttons-values > button:hover,.pomodore-timer .buttons-values > button:active,
 .pomodore-timer .timer-controls> button:hover, .pomodore-timer .timer-controls> button:active{
-    /* background-color: azure; */
+    background-color: azure;
     color:  rgb(0, 57, 0);
     scale: 1.3;
 }

@@ -32,13 +32,15 @@ body{
 
 #application-selector > button{
     font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+    background-color: rgb(96, 96, 96);
     width: 100%;
     padding : 20px;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 500;
+    color: whitesmoke;
 }
 
 #application-selector > button:hover, #application-selector > button:active{
     background-color: azure;
+    color: rgb(41, 41, 41);
 }
